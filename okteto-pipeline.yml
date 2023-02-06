@@ -1,4 +1,3 @@
 deploy:
-  - okteto build -t okteto.dev/
-fdxw:latest
+  - okteto build -t okteto.dev/fdxw:latest
   - kubectl apply -f k8s
